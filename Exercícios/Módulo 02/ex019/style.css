@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    background-color: blue;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+h1#preferencia{
+    text-align: center;
+    background-color: aquamarine;
+    color: rgb(253, 253, 96);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+.basico{
+
+color: rgb(69, 146, 69);
+
+}
+
+.intermediario{
+
+color: rgb(140, 146, 69);
+
+}
+
+.avançado{
+
+color: rgb(146, 69, 69);
+
+}
+
+.brilho{
+
+font-weight: bolder;
+color: chocolate;
+
+}
+
+
+
+
+
+
+
+
