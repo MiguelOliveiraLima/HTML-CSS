@@ -3,4 +3,4 @@
 
 
 
-Etou aprendendo a criar sites e agora vou gerenciar os meus repositórios
+Etou aprendendo a criar sites e agora vou gerenciar os meus repositó rios
