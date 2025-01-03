@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--Use o Label para facilitar os guias de busca-->
+    <h1>Meu Primeiro Formulário</h1>
+    <!--Métodos get e post são meios de ocultar os dados de formulários, sendo get como padrão e fazendo aparecer as informaçõaes do usuário na URL, e o post oculta as informações na URL, porém, tais informações continuam visíveis na leitura de dados do site.-->
+
+    <!--Quando usar:
+    GET: quando os dados não forem sencíveis e só pode enviar até 3.000 bytes por envio.
+    
+    aprender https para proteger dados
+
+    POST: dados sensíveis, envio de arquivos, e enviar conteúdos acima de 3.000 bytes. -->
+    <Form action="fomulario.php" method="post" autocomplete="off">
+        <p><label for="iNome">Nome:</label> <input type="text" name="Nome" id="iNome"></p>
+        <p><label for="iSobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="iSobrenome"></p>
+        <input type="submit" value="Enviar">
+    </Form>
+</body>
+</html>
